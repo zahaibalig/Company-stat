@@ -16,6 +16,33 @@ function App() {
     <div>
       <h1>Company Revenue Statistics</h1>
       {revenueData ? <RevenueChart data={revenueData} /> : <p>Loading data...</p>}
+      <div>
+      <h1>Company Revenue Statistics</h1>
+
+      {revenueData ? (
+        <div>
+          <RevenueChart data={revenueData} />
+
+          {/* Additional Widgets */}
+          <div>
+            <h2>Widget 1</h2>
+            {/* Widget 1 content */}
+          </div>
+
+          <div>
+            <h2>Widget 2</h2>
+            {/* Widget 2 content */}
+          </div>
+
+          <div>
+            <h2>Widget 3</h2>
+            {/* Widget 3 content */}
+          </div>
+        </div>
+      ) : (
+        <p>Loading data...</p>
+      )}
+    </div>
     </div>
   );
 }
