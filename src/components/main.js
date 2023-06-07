@@ -40,12 +40,7 @@
     </div>
   </section>
   
-  <section class="animation">
-    <h2>Animated Content</h2>
-    <div class="animated-content">
-      <p>This content fades in using JavaScript.</p>
-    </div>
-  </section>
+
   
   <script src="script.js"></script>
 </body>
